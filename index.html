@@ -3,38 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jadwal SAS • SMPN 4 Ciamis</title>
+  <title>Jadwal PSAT • SMPN 4 Ciamis</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-  <div class="waves-background"></div>
+  <div class="waves-background">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+  </div>
 
   <div class="container">
     <div id="pilihKelas" class="screen active">
       <div class="header">
-        <img src="logo.png" alt="Logo" class="logo">
+        <img src="logo.png" alt="Logo" class="logo" onerror="this.style.display='none'">
         <h1>SMP NEGERI 4 CIAMIS</h1>
-        <p class="subtitle">Penilaian Sumatif Akhir Semester (PSAS)<br>Tahun Pelajaran 2025/2026</p>
+        <p class="subtitle">PENILAIAN SUMATIF AKHIR TAHUN (PSAT)<br>TAHUN PELAJARAN 2025/2026</p>
       </div>
 
       <div class="kelas-wrapper">
-        <div class="kelas-card" data-kelas="7"><div class="icon-circle"><span>7</span></div><h3>Kelas VII</h3><div class="btn-lihat">Lihat Jadwal</div></div>
-        <div class="kelas-card" data-kelas="8"><div class="icon-circle"><span>8</span></div><h3>Kelas VIII</h3><div class="btn-lihat">Lihat Jadwal</div></div>
-        <div class="kelas-card" data-kelas="9"><div class="icon-circle"><span>9</span></div><h3>Kelas IX</h3><div class="btn-lihat">Lihat Jadwal</div></div>
+        <div class="kelas-card" data-kelas="VII">
+          <div class="icon-circle"><span>7</span></div>
+          <h3>Kelas VII</h3>
+          <div class="btn-lihat">Lihat Jadwal <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="kelas-card" data-kelas="VIII">
+          <div class="icon-circle"><span>8</span></div>
+          <h3>Kelas VIII</h3>
+          <div class="btn-lihat">Lihat Jadwal <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+
       </div>
     </div>
 
     <div id="jadwalUjian" class="screen">
       <div class="header-jadwal">
-        <h2>Jadwal SAS • Kelas <span id="namaKelas"></span></h2>
-        <div class="actions">
-          <button id="btnKembali" class="btn-back">Kembali</button>
-        </div>
+        <button id="btnKembali" class="btn-back"><i class="fa-solid fa-chevron-left"></i> Kembali</button>
+        <h2>Jadwal PSAS Kelas <span id="namaKelas"></span></h2>
       </div>
-      <div id="jadwalContainer"></div>
+      <div id="jadwalContainer">
+        </div>
     </div>
   </div>
 
