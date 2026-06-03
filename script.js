@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 tanggal: "Kamis, 04 Juni 2026",
                 mapel: [
-                    { jam: "07.00 - 08.30", nama: "Ilmu Pengetahuan Alam", link: "" },
+                    { jam: "07.00 - 08.30", nama: "Ilmu Pengetahuan Alam", link: "https://script.google.com/macros/s/AKfycbyqEpNnfS9y30dfagPfw751PKi0khkCfPcTJeBo80ZWQ_u41vm2b8WXPeulQJblkGv6/exec" },
                     { jam: "08.45 - 09.45", nama: "Informatika", link: "https://forms.gle/LinkInformatikaKelas7" },
                     { jam: "10.30 - 11.30", nama: "PJOK", link: "https://script.google.com/macros/s/AKfycbwZSHoXCdr4K3gp3mKGy-60FQ0xFy3gqd-Yk4LosPWqzd4IOq-G2BeEIuEpqxO2VUlU/exec" }
                 ]
