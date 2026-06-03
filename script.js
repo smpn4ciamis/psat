@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 tanggal: "Kamis, 04 Juni 2026",
                 mapel: [
                     { jam: "07.00 - 08.30", nama: "Ilmu Pengetahuan Alam", link: "https://script.google.com/macros/s/AKfycbyqEpNnfS9y30dfagPfw751PKi0khkCfPcTJeBo80ZWQ_u41vm2b8WXPeulQJblkGv6/exec" },
-                    { jam: "08.45 - 09.45", nama: "Informatika", link: "https://forms.gle/LinkInformatikaKelas7" },
+                    { jam: "08.45 - 09.45", nama: "Informatika", link: "https://script.google.com/macros/s/AKfycbyN2jNY1NlIGlWtUIaQGQrlWvREQOFFNTUaNPWaJ0DQK_UVXmw-UjYmaxh1PEwaDOIRUQ/exec" },
                     { jam: "10.30 - 11.30", nama: "PJOK", link: "https://script.google.com/macros/s/AKfycbwZSHoXCdr4K3gp3mKGy-60FQ0xFy3gqd-Yk4LosPWqzd4IOq-G2BeEIuEpqxO2VUlU/exec" }
                 ]
             }
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 tanggal: "Kamis, 04 Juni 2026",
                 mapel: [
                     { jam: "07.00 - 08.30", nama: "Ilmu Pengetahuan Alam", link: "https://script.google.com/macros/s/AKfycbwkkbHxXCe7oiibjWS0vjes46BZD5W323_h2lvGiyHnp4qT0j-3utyBOCLoWivPEHVv/exec" },
-                    { jam: "08.45 - 09.45", nama: "Informatika", link: "https://forms.gle/LinkInformatikaKelas8" },
+                    { jam: "08.45 - 09.45", nama: "Informatika", link: "https://script.google.com/macros/s/AKfycbzNKGQAOqMN6HR1a0B7isHi8g62sdaN35fuzhkUB5lJLegsaRDdRWGcgwBRRUH_3kxE/exec" },
                     { jam: "10.30 - 11.30", nama: "PJOK", link: "https://script.google.com/macros/s/AKfycbyyLXKh7abjIjF5WLMG9w_IIkk6R2EkrwwPg2CG1opZ7J6KABefdAwTpxPFkRiSXTbU/exec" }
                 ]
             }
